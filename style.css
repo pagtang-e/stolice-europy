@@ -1,0 +1,112 @@
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body{
+  height: calc(100vh- 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Source Code Pro', monospace;
+  background-color: rgb(25,25,25);
+  font-size: 1.6vh;
+}
+
+#title{
+
+width: 8.5vw;
+margin: 0 auto;
+border-right: 2px solid rgba(255, 255, 255, 0.75);
+font-size: 200%;
+text-align:center;
+white-space: nowrap;
+overflow: hidden; transform: translateY(450%);
+}
+.aim-typewriter{
+  animation: typewriter 3s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+@keyframes typewriter {
+  from{
+    width:0;
+  }
+  to{
+    width: 8.5em;
+  }
+}
+@keyframes blinkTextCursor {
+  from{
+    border-right-color: rgba(255, 255, 255, 0.74);
+  }
+  to{
+    border-right-color: tranparent;
+  }
+
+}
+#bt{
+animation: buttons 3s;
+position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  width: 14vh;
+}
+
+@keyframes buttons {
+from{
+opacity: 0;
+}
+30%{opacity: 0;}
+to{
+opacity:1;
+}
+}
+
+.btb{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 130%;
+border: 2;
+border-color: rgba(255, 255, 255, 0.75);
+background-color: rgba(0, 0, 0, 0);
+color: rgba(255, 255, 255, 0.75);
+height: 5.5vh;
+width: 14vh;
+
+}
+#btd{
+  position: relative;
+  top: 0.75vh;
+  left: ;
+}
+#btf{
+  position: relative;
+  top: 1.5vh;
+  left: ;
+}
+.btb:hover{
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+  background-color:rgb(40,40,40);
+}
+#bte{
+  position: relative;
+  top: 2.25vh;
+  left: ;
+}
+  #btna{
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    width: 14vh;
+  }
+#title2{
+position: absolute;
+top: 20%;
+left: 40.5%;
+width: 8.5vw;
+font-size: 200%;
+text-align:center;
+white-space: nowrap;

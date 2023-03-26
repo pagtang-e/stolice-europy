@@ -1,0 +1,50 @@
+
+body{
+
+  /* czcionka */
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+
+  /* kolory strony */
+    background-color: rgb(25,25,25);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+div{
+  /* pozycja treści */
+  height: 30vh;
+  width: 40vw;
+  position: absolute;
+  left: 30vw;
+  top: 20vh;
+
+  /* czcionka */
+  font-size: 1.4em;
+}
+
+#backbt{
+  /*tło przycisku */
+  background-image: url(backbt.png);
+  background-position: center;
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+
+  /* forma */
+  height: 1.5vw;
+  width: 1.5vw;
+  border: 0;
+  border-radius: 5em;
+
+  /* pozycja */
+  position: absolute;
+  top: 1.5%;
+  left: 1.5%;
+}
+
+h1{
+/* rozmiar i pozycja tytułu */
+width: 50vw;
+position: absolute;
+top:10%;
+left: 25vw;
+}
